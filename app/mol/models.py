@@ -11,6 +11,7 @@ from django.conf import settings
 
 
 fs = FTPStorage(location=settings.FTP_STORAGE_LOCATION)
+print(settings.FTP_STORAGE_LOCATION)
 
 
 class Account(AbstractUser):
