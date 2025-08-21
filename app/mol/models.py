@@ -110,6 +110,10 @@ class Blog(models.Model):
         verbose_name="Текст",
         help_text="Текст"
     )
+    slug = models.TextField(
+        blank=True,
+        null=True
+    )
 
     class Meta:
         verbose_name = "Блоги"
@@ -136,6 +140,10 @@ class Project(models.Model):
     text = models.TextField(
         verbose_name="Текст",
         help_text="Текст"
+    )
+    slug = models.TextField(
+        blank=True,
+        null=True
     )
 
     class Meta:
