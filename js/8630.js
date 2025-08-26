@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmolmash"]=self["webpackChunkmolmash"]||[]).push([[8630],{8630:function(n,e,r){function t(n,e){return" teploobmenniki "}r.r(e),r.d(e,{default:function(){return a}});var u=r(6262);const o={},s=(0,u.A)(o,[["render",t]]);var a=s}}]);
+//# sourceMappingURL=8630.js.map

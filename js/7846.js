@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmolmash"]=self["webpackChunkmolmash"]||[]).push([[7846],{7846:function(n,e,r){function u(n,e){return" плавленные сыры "}r.r(e),r.d(e,{default:function(){return c}});var t=r(6262);const s={},a=(0,t.A)(s,[["render",u]]);var c=a}}]);
+//# sourceMappingURL=7846.js.map

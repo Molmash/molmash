@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmolmash"]=self["webpackChunkmolmash"]||[]).push([[3371],{3371:function(e,n,t){t.r(n),t.d(n,{default:function(){return o}});var u=t(641),a=t(953),r=t(8249),s=(0,u.pM)({__name:"index",setup(e){return(e,n)=>{const t=(0,u.g2)("Map"),s=(0,u.g2)("Footer");return(0,u.uX)(),(0,u.CE)(u.FK,null,[(0,u.bF)((0,a.R1)(r.D),{tagName:"h1",color:"dark",size:"xxl"},{default:(0,u.k6)((()=>[(0,u.eW)(" Вакансии ")])),_:1}),(0,u.bF)(t),(0,u.bF)(s)],64)}}});const l=s;var o=l}}]);
+//# sourceMappingURL=3371.js.map
