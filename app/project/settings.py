@@ -248,7 +248,7 @@ PROJECT_DIR = os.path.dirname(__file__)
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(PROJECT_DIR, 'static/')
 
-MEDIA_URL = 'https://molmash.ru/'
+MEDIA_URL = os.getenv("MEDIA_URL")
 
 FTP_USER = os.environ.get("FTP_USER")
 FTP_PASS = os.environ.get("FTP_PASS")

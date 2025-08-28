@@ -1,4 +1,5 @@
 from datetime import datetime
+import os
 
 from django.conf import settings
 from django.contrib.auth import authenticate
@@ -83,7 +84,7 @@ class Logout(APIView):
 )
 # endregion
 class MailViewSet(viewsets.ModelViewSet):
-    permission_classes = (AllowAny, CustomDjangoModelPermission,)
+    permission_classes = (AllowAny,)
     queryset = models.Mail.objects.all()
     serializer_class = auth_serializers.MailSerializer
     http_method_names = ['post']
@@ -218,10 +219,11 @@ class RequestNote(APIView):
 
         html_content = render_to_string('emails/request_note.html', context)
 
+        from_email = os.getenv("FROM_EMAIL")
         email = EmailMessage(
             subject=f'Новая заявка',
             body=html_content,
-            from_email=f'noreply@mail.ru',
+            from_email=from_email,
             to=[email_to],
         )
         email.content_subtype = 'html'
