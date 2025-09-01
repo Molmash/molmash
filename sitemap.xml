@@ -302,7 +302,14 @@
 
   <!-- Блог -->
   <url>
-    <loc>https://molmash.ru/info/blog/</loc>
+    <loc>https://molmash.ru/blog/</loc>
+    <lastmod>2025-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- Новости -->
+  <url>
+    <loc>https://molmash.ru/news/</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
